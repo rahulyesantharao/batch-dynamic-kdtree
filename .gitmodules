@@ -1,0 +1,9 @@
+[submodule "utils/external/xxHash"]
+	path = utils/external/xxHash
+	url = git@github.com:Cyan4973/xxHash.git
+[submodule "utils/external/pargeo"]
+	path = utils/external/pargeo
+	url = git@github.com:wangyiqiu/pargeo.git
+[submodule "utils/external/parlaylib"]
+	path = utils/external/parlaylib
+	url = git@github.com:wangyiqiu/parlaylib.git

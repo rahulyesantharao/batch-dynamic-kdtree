@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.12)
+set(CMAKE_CXX_STANDARD 17)
+
+file(GLOB SRCS *.cpp)
+include(GoogleTest)
+add_executable(test_shared ${SRCS})
+target_link_libraries(test_shared PRIVATE
+  kdtree
+  ${GTest_LIBRARIES})
+
+gtest_discover_tests(test_shared)
+#add_test(NAME test_shared)
